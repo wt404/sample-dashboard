@@ -6,7 +6,6 @@ import Layout from './components/layouts/Layout'
 import Dashboard from './pages/dashboard'
 import User from './pages/user'
 
-
 const router = createBrowserRouter([
   {
     element: <Layout />,

@@ -5,8 +5,8 @@ const Sidebar = ({ activeSidebar, toggleSidebar }) => {
     <aside
       className={
         activeSidebar
-          ? 'bg-blue-500 fixed z-10 w-full md:w-64 h-screen transition-all duration-300'
-          : 'bg-blue-500 fixed z-10 w-64 h-screen transition-all duration-300 -ml-64'
+          ? 'bg-white fixed z-10 w-full md:w-64 h-screen transition-all duration-300'
+          : 'bg-white fixed z-10 w-64 h-screen transition-all duration-300 -ml-64'
       }
     >
       {/* Toggle */}
@@ -34,11 +34,6 @@ const Sidebar = ({ activeSidebar, toggleSidebar }) => {
       {/* Menu */}
       <nav>
         <ul className='flex flex-col space-y-5 p-5'>
-          <li>
-            <p className='p-5 text-center bg-black text-white rounded'>
-              Welcome, User
-            </p>
-          </li>
           <li className='flex'>
             <MenuButton name='Dashboard' to='' />
           </li>

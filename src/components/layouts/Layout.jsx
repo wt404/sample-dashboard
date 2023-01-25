@@ -11,7 +11,7 @@ const Layout = () => {
   }
 
   return (
-    <div className='flex'>
+    <div className='bg-black/25 w-full h-screen flex'>
       {/* Sidebar */}
       <Sidebar activeSidebar={activeSidebar} toggleSidebar={toggleSidebar} />
 
