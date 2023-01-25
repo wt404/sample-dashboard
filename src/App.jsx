@@ -1,6 +1,8 @@
 
+import './App.css'
+
 const App = () => {
-  return <div>Test</div>
+  return <div className='bg-blue-500'>Test</div>
 }
 
 export default App
