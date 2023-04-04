@@ -2,4 +2,4 @@
 
 ## 💻 Tech Stack
 > - React
-> - TrailwindCSS
+> - TailwindCSS
